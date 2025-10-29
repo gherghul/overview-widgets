@@ -125,3 +125,43 @@ body {
   margin: 0 0 20px; /* remove top margin, add bottom spacing */
   padding: 24px 0 16px;
 }
+/* Status and metadata section (above the table) */
+.overview-status {
+  text-align: left;
+  margin: 8px 0 16px;
+  padding: 0 8px;
+}
+
+.overview-status .status-text {
+  font-size: 18px;
+  font-weight: 700;
+  color: #0f172a;
+  margin-bottom: 12px;
+}
+
+/* Additional metadata list */
+.overview-status .meta-list {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding-left: 0;
+  margin: 0;
+}
+
+.overview-status .meta-item {
+  list-style: none;
+  font-size: 15px;
+  color: #334155;
+  /* background: #f9fafb; */
+  /* border: 1px solid #e2e8f0; */
+  border-radius: 6px;
+  padding: 6px 10px;
+  width: fit-content;
+  min-width: 240px;
+}
+
+.overview-status .meta-label {
+  font-weight: 600;
+  color: #475569;
+  margin-right: 4px;
+}

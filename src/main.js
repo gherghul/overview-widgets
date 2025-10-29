@@ -5,6 +5,7 @@ import { renderMortgageDetails } from './overview-mortgageDetails-widget.js';
 
 const mount = document.getElementById('overview');
 
+
 const applicants = [
   {
     role: "Main applicant",
@@ -23,6 +24,15 @@ const applicants = [
     email: "Anne.Jones@gmail.com",
   }
 ];
+const customerDetailsParams = {
+  applicants,
+  applicationStatus: "Offer approved",
+  additionalData: [
+    { offerSubmittedOn: '21/06/2025' },
+    { applicationValidated: true },
+    { loanAmount: 70000 },
+  ]
+}
 
 const mortgageData = {
   mortgageType: 'First time buyer',
@@ -67,7 +77,7 @@ const tasks = [
   },
 ];
 
-renderCustomerDetails(mount, applicants);
+renderCustomerDetails(mount, customerDetailsParams);
 renderMortgageDetails(mount, mortgageData);
 renderCustomerTasks(mount, tasks);
 renderApplicationHistory(mount, history);
