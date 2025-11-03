@@ -1,0 +1,236 @@
+[
+    {
+        "currentStatus": "Funds released",
+        "fromStatus": "Get A Mortgage Estimate",
+        "toStatus": "Application In Progress",
+        "transitionDate": "2023-12-08T12:40:12.63Z"
+    },
+    {
+        "currentStatus": "Funds released",
+        "fromStatus": "Application In Progress",
+        "toStatus": "Application Verification",
+        "transitionDate": "2023-12-08T15:35:03.287Z"
+    },
+    {
+        "currentStatus": "Funds released",
+        "fromStatus": "Application Verification",
+        "toStatus": "Underwriter Assessment",
+        "transitionDate": "2023-12-08T15:51:57.867Z"
+    },
+    {
+        "currentStatus": "Funds released",
+        "fromStatus": "Underwriter Assessment",
+        "toStatus": "AIP issued",
+        "transitionDate": "2023-12-08T16:19:17.743Z"
+    },
+    {
+        "currentStatus": "Funds released",
+        "fromStatus": "AIP issued",
+        "toStatus": "PreOfferInProgress",
+        "transitionDate": "2023-12-08T16:24:32.123Z"
+    },
+    {
+        "currentStatus": "Funds released",
+        "fromStatus": "PreOfferInProgress",
+        "toStatus": "Pre Offer Validation",
+        "transitionDate": "2023-12-08T16:32:06.323Z"
+    },
+    {
+        "currentStatus": "Funds released",
+        "fromStatus": "Pre Offer Validation",
+        "toStatus": "Offer assessment",
+        "transitionDate": "2023-12-11T09:19:05.343Z"
+    },
+    {
+        "currentStatus": "Funds released",
+        "fromStatus": "Offer assessment",
+        "toStatus": "Customer Offer clarification",
+        "transitionDate": "2023-12-11T09:32:54.03Z"
+    },
+    {
+        "currentStatus": "Funds released",
+        "fromStatus": "Customer Offer clarification",
+        "toStatus": "Offer assessment",
+        "transitionDate": "2023-12-11T09:54:44.893Z"
+    },
+    {
+        "currentStatus": "Funds released",
+        "fromStatus": "Offer assessment",
+        "toStatus": "Offer reviewed by Credit Risk",
+        "transitionDate": "2023-12-11T10:23:32.597Z"
+    },
+    {
+        "currentStatus": "Funds released",
+        "fromStatus": "Offer reviewed by Credit Risk",
+        "toStatus": "Offer Approved",
+        "transitionDate": "2023-12-11T10:24:38.217Z"
+    },
+    {
+        "currentStatus": "Funds released",
+        "fromStatus": "Offer Approved",
+        "toStatus": "Offer issued",
+        "transitionDate": "2023-12-11T10:30:43.803Z"
+    },
+    {
+        "currentStatus": "Funds released",
+        "fromStatus": "Offer issued",
+        "toStatus": "Pre drawdown preparation",
+        "transitionDate": "2023-12-11T11:20:32.367Z"
+    },
+    {
+        "currentStatus": "Funds released",
+        "fromStatus": "Pre drawdown preparation",
+        "toStatus": "Offer assessment",
+        "transitionDate": "2023-12-11T11:38:36.323Z"
+    },
+    {
+        "currentStatus": "Funds released",
+        "fromStatus": "Offer assessment",
+        "toStatus": "Customer Offer clarification",
+        "transitionDate": "2023-12-11T11:48:06.313Z"
+    },
+    {
+        "currentStatus": "Funds released",
+        "fromStatus": "Customer Offer clarification",
+        "toStatus": "Offer assessment",
+        "transitionDate": "2023-12-11T12:09:04.787Z"
+    },
+    {
+        "currentStatus": "Funds released",
+        "fromStatus": "Offer assessment",
+        "toStatus": "Underwriter Assessment",
+        "transitionDate": "2023-12-13T10:52:39.763Z"
+    },
+    {
+        "currentStatus": "Funds released",
+        "fromStatus": "Underwriter Assessment",
+        "toStatus": "AIP issued",
+        "transitionDate": "2023-12-13T13:15:17.433Z"
+    },
+    {
+        "currentStatus": "Funds released",
+        "fromStatus": "AIP issued",
+        "toStatus": "PreOfferInProgress",
+        "transitionDate": "2023-12-18T17:35:35.493Z"
+    },
+    {
+        "currentStatus": "Funds released",
+        "fromStatus": "PreOfferInProgress",
+        "toStatus": "Pre Offer Validation",
+        "transitionDate": "2023-12-19T09:35:54.96Z"
+    },
+    {
+        "currentStatus": "Funds released",
+        "fromStatus": "Pre Offer Validation",
+        "toStatus": "Offer assessment",
+        "transitionDate": "2023-12-19T09:36:08.78Z"
+    },
+    {
+        "currentStatus": "Funds released",
+        "fromStatus": "Offer assessment",
+        "toStatus": "Customer Offer clarification",
+        "transitionDate": "2023-12-19T10:08:55.073Z"
+    },
+    {
+        "currentStatus": "Funds released",
+        "fromStatus": "Customer Offer clarification",
+        "toStatus": "Offer assessment",
+        "transitionDate": "2023-12-19T11:41:24.657Z"
+    },
+    {
+        "currentStatus": "Funds released",
+        "fromStatus": "Offer assessment",
+        "toStatus": "Offer Approved",
+        "transitionDate": "2023-12-19T11:58:40.493Z"
+    },
+    {
+        "currentStatus": "Funds released",
+        "fromStatus": "Offer Approved",
+        "toStatus": "Offer issued",
+        "transitionDate": "2023-12-19T11:59:33.107Z"
+    },
+    {
+        "currentStatus": "Funds released",
+        "fromStatus": "Offer issued",
+        "toStatus": "Offer assessment",
+        "transitionDate": "2023-12-19T15:06:25.297Z"
+    },
+    {
+        "currentStatus": "Funds released",
+        "fromStatus": "Offer assessment",
+        "toStatus": "Offer Approved",
+        "transitionDate": "2023-12-19T15:10:15.597Z"
+    },
+    {
+        "currentStatus": "Funds released",
+        "fromStatus": "Offer Approved",
+        "toStatus": "Offer issued",
+        "transitionDate": "2023-12-19T15:11:39.663Z"
+    },
+    {
+        "currentStatus": "Funds released",
+        "fromStatus": "Offer issued",
+        "toStatus": "Offer assessment",
+        "transitionDate": "2023-12-19T15:15:07.893Z"
+    },
+    {
+        "currentStatus": "Funds released",
+        "fromStatus": "Offer assessment",
+        "toStatus": "Offer Approved",
+        "transitionDate": "2023-12-19T15:18:55.027Z"
+    },
+    {
+        "currentStatus": "Funds released",
+        "fromStatus": "Offer Approved",
+        "toStatus": "Offer issued",
+        "transitionDate": "2023-12-19T15:19:26.837Z"
+    },
+    {
+        "currentStatus": "Funds released",
+        "fromStatus": "Offer issued",
+        "toStatus": "Pre drawdown preparation",
+        "transitionDate": "2023-12-19T17:02:39.467Z"
+    },
+    {
+        "currentStatus": "Funds released",
+        "fromStatus": "Pre drawdown preparation",
+        "toStatus": "Pre-drawdown validation",
+        "transitionDate": "2023-12-19T17:11:58.673Z"
+    },
+    {
+        "currentStatus": "Funds released",
+        "fromStatus": "Pre-drawdown validation",
+        "toStatus": "Pre Drawdown Approved",
+        "transitionDate": "2023-12-19T17:13:04.087Z"
+    },
+    {
+        "currentStatus": "Funds released",
+        "fromStatus": "Pre Drawdown Approved",
+        "toStatus": "Drawdown Assessment",
+        "transitionDate": "2023-12-19T17:13:14.23Z"
+    },
+    {
+        "currentStatus": "Funds released",
+        "fromStatus": "Drawdown Assessment",
+        "toStatus": "Drawdown Approved",
+        "transitionDate": "2023-12-19T17:16:25.18Z"
+    },
+    {
+        "currentStatus": "Funds released",
+        "fromStatus": "Drawdown Approved",
+        "toStatus": "Drawdown Confirmed",
+        "transitionDate": "2023-12-19T17:24:26.077Z"
+    },
+    {
+        "currentStatus": "Funds released",
+        "fromStatus": "Drawdown Confirmed",
+        "toStatus": "Funds ready for release",
+        "transitionDate": "2023-12-19T17:27:28.82Z"
+    },
+    {
+        "currentStatus": "Funds released",
+        "fromStatus": "Funds ready for release",
+        "toStatus": "Funds released",
+        "transitionDate": "2024-05-24T06:06:46.423Z"
+    }
+]
