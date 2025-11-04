@@ -152,16 +152,39 @@ body {
   list-style: none;
   font-size: 15px;
   color: #334155;
-  /* background: #f9fafb; */
-  /* border: 1px solid #e2e8f0; */
-  border-radius: 6px;
-  padding: 6px 10px;
-  width: fit-content;
-  min-width: 240px;
+  margin-bottom: 12px;
 }
 
 .overview-status .meta-label {
   font-weight: 600;
-  color: #475569;
-  margin-right: 4px;
+  color: #1e293b;
+  margin-right: 6px;
+}
+/* 
+.overview-status .meta-item {
+  list-style: none;
+  font-size: 15px;
+  color: #334155;
+  background: #abc7e4;
+  border: 1px solid #e2e8f0;
+  border-radius: 6px;
+  padding: 6px 10px;
+  width: fit-content;
+  min-width: 260px;
+  display: flex;
+  flex-direction: column;
+} */
+
+.overview-status .meta-value {
+  display: inline; /* ✅ keeps it on the same line as label */
+  font-weight: 500;
+  color: #0f172a;
+}
+
+.overview-status .meta-timestamp {
+  display: block; /* ✅ forces new line only for timestamp */
+  font-size: 13px;
+  color: #64748b;
+  margin-top: 2px;
+  margin-left: 6px; /* small indentation for hierarchy */
 }

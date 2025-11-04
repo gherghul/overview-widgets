@@ -14,28 +14,54 @@ export function renderOverviewSection(mountEl, title, innerHTML, options = {}) {
 
   const { status, additionalData } = options;
 
-  // Optional status + metadata section
   let statusHTML = '';
   if (status || (additionalData && additionalData.length)) {
     const metaItems = additionalData
       ? additionalData.map(obj => {
-        const [key, value] = Object.entries(obj)[0];
+        const [key, rawValue] = Object.entries(obj)[0];
+
         const formattedKey = key
           .replace(/([A-Z])/g, ' $1')
           .replace(/^./, str => str.toUpperCase());
-        return `<li class="meta-item"><span class="meta-label">${formattedKey}:</span> ${value}</li>`;
+
+        // Handle object value with { value, timestamp }
+        let valueHTML = '';
+        if (rawValue && typeof rawValue === 'object' && 'value' in rawValue) {
+          const { value, timestamp, labelTimestamp } = rawValue;
+          const formattedDate = timestamp
+            ? new Date(timestamp).toLocaleString('en-IE', {
+              day: '2-digit',
+              month: 'short',
+              year: 'numeric',
+              hour: '2-digit',
+              minute: '2-digit',
+            })
+            : '';
+          valueHTML = `
+              <div class="meta-value">${value}</div>
+              ${timestamp ? `<div class="meta-timestamp">${labelTimestamp} ${formattedDate}</div>` : ''}
+            `;
+        } else {
+          valueHTML = `<div class="meta-value">${rawValue}</div>`;
+        }
+
+        return `
+            <li class="meta-item">
+              <span class="meta-label">${formattedKey}:</span>
+              ${valueHTML}
+            </li>
+          `;
       }).join('')
       : '';
 
     statusHTML = `
       <div class="overview-status">
-        ${status ? `<h2 class="status-text">Application Status: ${status}</h2>` : ''}
+        ${status ? `<h2 class="status-text">${status}</h2>` : ''}
         ${metaItems ? `<ul class="meta-list">${metaItems}</ul>` : ''}
       </div>
     `;
   }
 
-  // 👇 Note the order: status → title → table
   const html = `
     <section class="overview-card">
       ${statusHTML}
